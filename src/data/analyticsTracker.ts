@@ -1,7 +1,5 @@
 import { IAnalyticsTrackerOptions } from '../typings/types';
 const analyticsTracker = (options: IAnalyticsTrackerOptions): void => {
-  //   console.log(Math.random());
-  //   console.log('-------');
   const {
     metricName,
     eventProperties,
@@ -9,6 +7,6 @@ const analyticsTracker = (options: IAnalyticsTrackerOptions): void => {
     navigatorInformation,
     vitalsScore,
   } = options;
-  console.log(options);
+  // console.log(options);
 };
 export default analyticsTracker;
